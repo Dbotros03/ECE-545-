@@ -1,2 +1,4 @@
 # ECE-545-
 SecureChatCLI - Implementing Encryption and Decryption for Command Line Chat
+The intention of the project is to give command line-based chat an extra degree of security. This project attempts to implement fundamental encryption techniques in a command-line environment, protecting user privacy as secure communication becomes more and more important.
+I used Vigenère Cipher in order to encrypt and decrypt the messages. The way it works is that there is a key word used by the server and client in which it allows the cipher to encrypt and decrypt according to that word. First I establish the servers connection so that it starts listening to the client, and as the client enters the message the server receives the message and encrypts it for security. And if that key is not the same it will receive a wrong message.
